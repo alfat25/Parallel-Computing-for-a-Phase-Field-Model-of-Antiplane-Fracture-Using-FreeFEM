@@ -2,22 +2,24 @@
 
 
 
+
 ## Governing Equations
 
 The governing equations of the antiplane phase-field fracture model are given by
 
 ```math
 \begin{cases}
-\rho \frac{\partial^2 u}{\partial t^2}
-= \operatorname{div}\left((1-z)^2\mu\nabla u\right)
+\rho \dfrac{\partial^2 u}{\partial t^2}
+= \nabla \cdot \left((1-z)^2\mu\nabla u\right)
 & \text{in } \Omega, \\[8pt]
-\alpha \frac{\partial z}{\partial t}
+\alpha \dfrac{\partial z}{\partial t}
 =
 \left(
-\epsilon\operatorname{div}(\gamma\nabla z)
--\frac{\gamma}{\epsilon}z
+\epsilon\nabla \cdot (\gamma\nabla z)
+-\dfrac{\gamma}{\epsilon}z
 +\mu|\nabla u|^2(1-z)
 \right)_+
 & \text{in } \Omega.
 \end{cases}
 ```
+

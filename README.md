@@ -2,9 +2,7 @@
 
 
 ## Governing Equations
-
 The governing equations of the antiplane phase-field fracture model are given by
-
 $$
 \begin{aligned}
 \rho \frac{\partial^2 u}{\partial t^2}

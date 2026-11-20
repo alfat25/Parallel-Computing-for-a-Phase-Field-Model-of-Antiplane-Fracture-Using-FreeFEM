@@ -27,5 +27,30 @@ The governing equations of the antiplane phase-field fracture model are given by
 
 The computational domain and boundary conditions used in the numerical simulations are illustrated below.
 
-![Computational domain](Results/Example1.pdf)
+## Domain Setting
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="Results/Example1.pdf" width="100%">
+      <br>
+      <b>(a) Single-notch material</b>
+    </td>
+    <td align="center">
+      <img src="Results/Example2.pdf" width="100%">
+      <br>
+      <b>(b) Double-notch material</b>
+    </td>
+    <td align="center">
+      <img src="Results/Example3.pdf" width="100%">
+      <br>
+      <b>(c) Anisotropic material</b>
+    </td>
+    <td align="center">
+      <img src="Results/Example4.pdf" width="100%">
+      <br>
+      <b>(d) Interface material</b>
+    </td>
+  </tr>
+</table>
 

@@ -23,3 +23,9 @@ The governing equations of the antiplane phase-field fracture model are given by
 \end{cases}
 ```
 
+## Domain Setting 
+
+The computational domain and boundary conditions used in the numerical simulations are illustrated below.
+
+![Computational domain](Results/Example1.pdf)
+
